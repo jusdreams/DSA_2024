@@ -12,7 +12,7 @@ import numpy as np
 #%matplotlib inline
 matplotlib.use('inline')
 #load data
-df = pd.read_csv("data/FuelConsumptionCo2.csv")
+df = pd.read_csv("/Users/jusdreams/Documents/GitHub/2024/DSA/data/FuelConsumptionCo2.csv")
 # take a look at the dataset
 df.head()
 # summarize the data

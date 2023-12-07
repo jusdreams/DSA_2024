@@ -116,7 +116,7 @@ ax.set_yticks(())
 plt.show()
 
 #add customer data
-cust_df = pd.read_csv('data/Cust_Segmentation.csv')
+cust_df = pd.read_csv('/Users/jusdreams/Documents/GitHub/2024/DSA/data/Cust_Segmentation.csv')
 df = cust_df.drop('Address', axis=1)
 df.head()
 

@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 matplotlib.use('inline')
 
 #load data
-my_data = pd.read_csv("data/drug200.csv")
+my_data = pd.read_csv("/Users/jusdreams/Documents/GitHub/2024/DSA/data/drug200.csv")
 
 my_data.head() # take a look at the dataset
 

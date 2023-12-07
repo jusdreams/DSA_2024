@@ -40,7 +40,7 @@ from sklearn import preprocessing
 matplotlib.use('inline')
 
 #load data
-df = pd.read_csv("data/teleCust1000t.csv")
+df = pd.read_csv("/Users/jusdreams/Documents/GitHub/2024/DSA/data/teleCust1000t.csv")
 
 df.head() # take a look at the dataset
 

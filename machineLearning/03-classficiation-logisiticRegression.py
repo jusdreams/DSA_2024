@@ -26,7 +26,7 @@ import matplotlib
 matplotlib.use('inline')
 
 #load data
-chrun_df = pd.read_csv("data/ChurnData.csv")
+chrun_df = pd.read_csv("/Users/jusdreams/Documents/GitHub/2024/DSA/data/ChurnData.csv")
 chrun_df.head() # take a look at the dataset
 
 #preprocessing

@@ -36,7 +36,7 @@ import matplotlib
 matplotlib.use('inline')
 
 #load data
-cell_df = pd.read_csv('data/cell_samples.csv')
+cell_df = pd.read_csv('/Users/jusdreams/Documents/GitHub/2024/DSA/data/cell_samples.csv')
 cell_df.head()
 
 '''

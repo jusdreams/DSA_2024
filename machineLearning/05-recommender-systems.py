@@ -14,12 +14,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 matplotlib.use('inline')
 # Acquiring the Data:
-links_df = pd.read_csv('data/ml-latest/links.csv')
-tags_df = pd.read_csv('data/ml-latest/tags.csv')
+links_df = pd.read_csv('/Users/jusdreams/Documents/GitHub/2024/DSA/data/ml-latest/links.csv')
+tags_df = pd.read_csv('/Users/jusdreams/Documents/GitHub/2024/DSA/data/ml-latest/tags.csv')
 #Storing the movie information into a pandas dataframe
-movies_df = pd.read_csv('data/ml-latest/movies.csv')
+movies_df = pd.read_csv('/Users/jusdreams/Documents/GitHub/2024/DSA/data/ml-latest/movies.csv')
 #Storing the user information into a pandas dataframe
-ratings_df = pd.read_csv('data/ml-latest/ratings.csv')
+ratings_df = pd.read_csv('/Users/jusdreams/Documents/GitHub/2024/DSA/data/ml-latest/ratings.csv')
 #Head is a function that gets the first N rows of a dataframe. N's default is 5.
 movies_df.head()
 
